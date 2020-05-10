@@ -27,6 +27,15 @@
 							</li>
 							{{ end }}
 						</ul>
+						<ul>
+							{{ range .toppings}}
+							<li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+							  	<div class="item-title">
+									<h2>{{.title}}</h2>
+								</div>
+							</li>
+							{{ end }}
+						</ul>
 					</div>
 				</div>
 			</div><!-- .col-md-12 close -->
