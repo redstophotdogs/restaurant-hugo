@@ -500,11 +500,11 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 /*--
     price Start
 --*/
-#price {
+.price {
   padding: 70px 0px;
 }
 
-#price .block>p {
+.price .block>p {
   color: #9D9D9D;
   font-size: 16px;
   line-height: 26px;
@@ -512,31 +512,31 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   text-align: center;
 }
 
-#price .block .pricing-list {
+.price .block .pricing-list {
   padding-top: 85px;
 }
 
-#price .block .pricing-list ul {
+.price .block .pricing-list ul {
   padding: 0 0 30px;
   margin: 0;
 }
 
-#price .block .pricing-list ul li {
+.price .block .pricing-list ul li {
   padding: 21px 0px;
 }
 
-#price .block .pricing-list ul li .item .item-title {
+.price .block .pricing-list ul li .item .item-title {
   position: relative;
 }
 
-#price .block .pricing-list ul li .item .item-title h2 {
+.price .block .pricing-list ul li .item .item-title h2 {
   display: inline-block;
   position: relative;
   z-index: 99;
   background: #fff;
 }
 
-#price .block .pricing-list ul li .item .item-title .border-bottom {
+.price .block .pricing-list ul li .item .item-title .border-bottom {
   position: absolute;
   top: 0;
   width: 100%;
@@ -545,17 +545,17 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   margin-top: 20px;
 }
 
-#price .block .pricing-list ul li .item .item-title span {
+.price .block .pricing-list ul li .item .item-title span {
   float: right;
   color: #938463;
 }
 
-#price .block .pricing-list ul li .item p {
+.price .block .pricing-list ul li .item p {
   padding: 12px 0 0px;
   color: #949494;
 }
 
-#price .block .pricing-list .btn {
+.price .block .pricing-list .btn {
   padding: 28px 105px;
   border-radius: 0px;
   background: none;
@@ -569,7 +569,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   transition: .3s all;
 }
 
-#price .block .pricing-list .btn:hover {
+.price .block .pricing-list .btn:hover {
   background: #ff530a;
   color: #fff;
 }
